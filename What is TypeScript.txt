@@ -1,0 +1,45 @@
+# What is Typescript:
+
+TypeScript is a syntactic superset of JavaScript which adds static typing.
+This basically means that TypeScript adds syntax on top of JavaScript,
+allowing developers to add types.
+Static Typing means TypeScript uses compile time type checking, wWhich means
+it checks if the specified types match before running the code (while we are
+wring the code), not while running the code as Javascript does it.
+We write extra code in typescript, which will be lesser as compared to Javascript.
+However this code eventually gets converted into Javascript code in runtime.
+We can say that its a development tool.
+
+# Why should we use TypeScript?
+
+JavaScript is a loosely typed language. It can be difficult to understand what
+types of data are being passed around in JavaScript.
+TypeScript allows specifying the types of data being passed around within the 
+code, and has the ability to report errors when the types don't match.
+For example, TypeScript will report an error when passing a string into a function
+ that expects a number. JavaScript will not.
+
+Example:
+
+Trying to access an object property that doesnt exist in both TypeScript anf JavaScript and check the changes.
+Lets say the object is:
+
+let user = {name: "Varun", age: 10}
+
+Now lets try a property "email" that dosent exist in the above object.
+
+//In Javascript
+
+let email = user.email;  //It will work fine while we write code and throw error only when it it runs.
+
+//In TypeScript
+
+let email = user.ema    //It will show a red underline and will throw an error right there while we are writing the code.
+
+However in another example if we try to add two number with one being 2 (a number) 
+and another being "2" (a string), TypeScript will add them and give the result to 
+"22" (a string) which is the same as Javscript.
+There are somethings that are allowed in Typescript and ther are some which are not. 
+We will learn about them in future and also how to avoid them.
+
+
