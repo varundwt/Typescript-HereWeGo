@@ -1,0 +1,6 @@
+To globally install TypeScript
+npm i -g TypeScript
+
+To check the version of TypeScript
+tsc -v 
+
