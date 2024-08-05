@@ -1,0 +1,19 @@
+Data types available in TypeScript:
+
+Number ----- Integer/Floating-Point Number
+String ----- Sequence of characters
+Boolean ---- true/false
+
+Null ------- No value
+Undefined -- Uninitialized value
+Void ------- Used on function return-types
+
+Object ----- Object
+Array ------ Array
+Tuples ----- array with a pre-defined length and types for each index
+
+Any -------- If a variable is declared with any data type then any type of value can be assigned to that variable
+Never ------ Used in cases where a function or variable will never produce a valid value or reach the end of its execution
+Unknown ---- Used when a value might have any type, or when it is not convenient to use a more specific type
+
+and many more.
