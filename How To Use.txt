@@ -4,3 +4,5 @@ npm i -g TypeScript
 To check the version of TypeScript
 tsc -v 
 
+To convert our TS file into a newly generated JS file. 
+tsc filename.xyz
