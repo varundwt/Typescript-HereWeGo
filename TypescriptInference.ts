@@ -15,7 +15,7 @@ let isLoggedIn : boolean = false
 // functions return type, Object types, Array Types, etc.
 
 let myVariable = 10;
-myVariable = "varun"
+// myVariable = "varun"
 
 //Here if we have assigned a string to a variable which is number without setting a type to it
 //and TS still throws'Type 'string' is not assignable to type 'number'' error. 
